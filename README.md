@@ -1,6 +1,6 @@
 # leaflet-challenge
 
-- This assignment uses leaflet java script to create a visualization of earthquakes that utilizes created functions
+- This assignment uses leaflet javascript to create a visualization of earthquakes that utilizes created functions
 - The data is provided by United States Geological Survey
-- The map visual consists of the location of earthquakes where the maginitude is depicted in the size of the plotted coordinates and the depth will be portrayed by color- 
-- (I used documentation from leaflet as well as plug-n git-repo documentation)
+- The map visual consists of the location of earthquakes where the magnitude is depicted in the size of the plotted coordinates and the depth of each earthquake will be portrayed by the color of the plots.
+- (I used documentation from the leaflet website for assistance with creating the code)
