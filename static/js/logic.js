@@ -16,7 +16,7 @@ let baseMaps = {
 // Create the map object with center and zoom options.
 let myMap = L.map("map-id", {
   center: [34.03, -118.15],
-  zoom: 15,
+  zoom: 5,
   layers: background
 });
 
@@ -50,7 +50,7 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
       opacity: 1,
       fillOpacity: 1,
       fillColor: getColor(feature.geometry.coordinates[2]),
-      color: 'black',
+      color: 'white',
       radius: getRadius(feature.properties.mag),
       stroke: true,
       weight: 0.5
@@ -60,24 +60,27 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
   // This function determines the color of the marker based on the depth of the earthquake.
   function getColor(depth) {
     if (depth > 90) {
-      return 'red'
+      return '#FF0000'
     } else if (depth > 70) {
-      return 'orange'
+      return '#FF7F00'
     } else if (depth > 50) {
-      return 'yellow'
+      return '#FFFF00'
     } else if (depth > 30) {
-      return 'light green'
+      return '#7FFF00'
     } else if (depth > 10) {
-      return 'green'
+      return '#00FF00'
     } else {
-      return 'light blue'
+      return '#00FFFF'
     }
   }
 
   // This function determines the radius of the earthquake marker based on its magnitude.
   function getRadius(magnitude) {
-    return Math.sqrt(magnitude) * 50 
-  }
+    if (isNaN( magnitude)) {
+    return 1}
+    else {
+    return Math.sqrt(magnitude) * 10 
+  }}
 
   // Add a GeoJSON layer to the map once the file is loaded.
   L.geoJson(data, {
