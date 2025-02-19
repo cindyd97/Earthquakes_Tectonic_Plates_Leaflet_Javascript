@@ -109,7 +109,7 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
 
     // Initialize depth intervals and colors for the legend
     const depthIntervals = [0,10,30,50,70,90]
-    const colors = ['light blue', 'green', 'light green', 'yellow', 'orange', 'red'];
+    const colors = ['#00FFFF', 'green', '#7FFF00', 'yellow', 'orange', 'red'];
 
     // Loop through our depth intervals to generate a label with a colored square for each interval.
     for (let i = 0; i < depthIntervals.length; i++) {
