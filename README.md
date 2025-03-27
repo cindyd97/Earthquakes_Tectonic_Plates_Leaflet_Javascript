@@ -1,8 +1,12 @@
-# leaflet-challenge
+# Visualizing Earthquakes and Tectonic Plates using Leaflet and Javascript
 
-### Click Earthquakes or Tectonic plates within the toggle to view the plotted data. You can also switch views between topography or street view.
+### Description:
+- The javascript code uses the leaflet library to create an interactive map that displays earthquake data and tectonic plate boundaries. The earthquake data is plotted with circles and is styled based on magnitude and depth. The layer groups allow the user to toggle between viewing earthquake data or tectonic plates. The layer control adds a control to the map that allows users to switch between the base maps. An API request is made to retrieve the data. Popup markers as well as a legend are added to display the depth of the earthquakes
+- The CSS code styles and enhances the visual representation of the map and its associated elements.
+- The HTML structure sets up a webpage that is ready to display leaflet map, styled appropriately and with the necessary scripts to provide interactivity and functionality.
 
-- This assignment uses leaflet javascript to create a visualization of earthquakes that utilizes created functions
-- The data is provided by United States Geological Survey
-- The map visual consists of the location of earthquakes where the magnitude is depicted in the size of the plotted coordinates and the depth of each earthquake will be portrayed by the color of the plots.
-- (I used documentation from the leaflet website for assistance with creating the code)
+### Language: 
+Javascript, HTML, CSS
+
+### Data Source:
+
