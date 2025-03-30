@@ -10,3 +10,9 @@ Javascript, HTML, CSS
 
 ### Data Source:
 Dataset created by the United States Geological Survey http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
+
+### Details:
+- [Git Pages Website of Code](https://cindyd97.github.io/Earthquakes_Tectonic_Plates_Leaflet_Javascript/)
+- [Javascript code](https://github.com/cindyd97/Earthquakes_Tectonic_Plates_Leaflet_Javascript/blob/main/static/js/logic.js)
+- [HTML code](https://github.com/cindyd97/Earthquakes_Tectonic_Plates_Leaflet_Javascript/blob/main/index.html)
+
