@@ -5,6 +5,9 @@
 - The CSS code styles and enhances the visual representation of the map and its associated elements.
 - The HTML structure sets up a webpage that is ready to display leaflet map, styled appropriately and with the necessary scripts to provide interactivity and functionality.
 
+This ReadME's description is [copyrighted](https://github.com/cindyd97/Work/blob/main/LICENSE). 
+Unauthorized use or reproduction is prohibited.
+
 ### Language: 
 Javascript, HTML, CSS
 
